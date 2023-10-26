@@ -15,7 +15,7 @@ import CarGlassFilmProductsPage from "./pages/CarGlassFilmPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.DEV ? "/" : "/deneme/"}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/crystal-auto/" element={<Home />} />
