@@ -3,6 +3,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useTranslation } from "react-i18next";
 import "../style/CardSlider.css";
+import CardCaravan from "../library/card-caravan.png";
+import CardCar from "../library/card-car.png";
+import CardBigAuto from "../library/card-bigauto.png";
+import CardYacht from "../library/card-yacht.png";
+import CardCarGlassFilm from "../library/card-carglassfilm.png";
 
 const CardSlider = () => {
   const { t } = useTranslation();
@@ -38,27 +43,27 @@ const CardSlider = () => {
     <div className="card-slider">
       <Slider {...settings}>
         <div className="card">
-          <img src="./src/library/card-caravan.png" alt="Card 1" />
+          <img src={CardCaravan} alt="Card 1" />
           <h3>{t("card-caravan-h1")}</h3>
           <p>{t("card-caravan-p")}</p>
         </div>
         <div className="card">
-          <img src="./src/library/card-car.png" alt="Card 2" />
+          <img src={CardCar} alt="Card 2" />
           <h3>{t("card-car-h1")}</h3>
           <p>{t("card-car-p")}</p>
         </div>
         <div className="card">
-          <img src="./src/library/card-bigauto.png" alt="Card 3" />
+          <img src={CardBigAuto} alt="Card 3" />
           <h3>{t("card-bigauto-h1")}</h3>
           <p>{t("card-bigauto-p")}</p>
         </div>
         <div className="card">
-          <img src="./src/library/card-yacht.png" alt="Card 4" />
+          <img src={CardYacht} alt="Card 4" />
           <h3>{t("card-yacht-h1")}</h3>
           <p>{t("card-yacht-p")}</p>
         </div>
         <div className="card">
-          <img src="./src/library/card-carglassfilm.png" alt="Card 5" />
+          <img src={CardCarGlassFilm} alt="Card 5" />
           <h3>{t("card-carfilm-h1")}</h3>
           <p>{t("card-carfilm-p")}</p>
         </div>

@@ -1,17 +1,8 @@
 import { useState, useEffect } from "react";
 import "../style/MobileLogoSlider.css";
+import GetLogos from "./Logos";
 
-const logos = [
-  { id: 1, src: "./src/library/logos/audilogo.png" },
-  { id: 2, src: "./src/library/logos/bmwlogo.png" },
-  { id: 3, src: "./src/library/logos/fordlogo.png" },
-  { id: 4, src: "./src/library/logos/pegologo.png" },
-  { id: 5, src: "./src/library/logos/mercedeslogo.png" },
-  { id: 6, src: "./src/library/logos/kialogo.png" },
-  { id: 7, src: "./src/library/logos/renaultlogo.png" },
-  { id: 8, src: "./src/library/logos/vwlogo.png" },
-];
-
+const logos = GetLogos();
 const MobileLogoSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const isMobile = window.innerWidth < 768;
