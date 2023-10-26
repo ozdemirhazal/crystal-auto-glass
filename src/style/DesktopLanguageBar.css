@@ -1,0 +1,41 @@
+.desktop-language {
+  position: absolute;
+  top: 25px;
+  right: 70px;
+  z-index: 10;
+  display: flex;
+  align-items: top;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333;
+}
+.desktop-language ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.desktop-language ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.desktop-language ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+}
+
+.desktop-language ul li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-language {
+    display: none;
+  }
+}

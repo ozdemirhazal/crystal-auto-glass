@@ -1,0 +1,145 @@
+.whyus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3%;
+}
+
+.whyus-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  margin-top: 100px;
+}
+
+.whyus-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.whyus-text p {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  font-style: italic;
+  padding: 30px 300px;
+}
+
+.other-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.insurance,
+.certified,
+.repair,
+.installing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.insurance-image,
+.certified-image,
+.repair-image,
+.installing-image,
+.insurance-text,
+.certified-text,
+.repair-text,
+.installing-text {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.insurance-text,
+.certified-text,
+.repair-text,
+.installing-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.insurance-text h1,
+.certified-text h1,
+.repair-text h1,
+.installing-text h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.insurance-text p,
+.certified-text p,
+.repair-text p,
+.installing-text p {
+  font-size: 15px;
+  color: #333;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .whyus-container {
+    display: flex;
+    flex-direction: column; /* Mobil cihazlarda sütun düzeni */
+    align-items: center;
+    padding: 10px; /* Mobil cihazlar için içerik alanı iç boşluğu ayarı */
+  }
+
+  .whyus-text h1[data-translation-key="whyus-h1"] {
+    font-size: 25px; /* Mobil cihazlar için metin boyutu */
+    margin-top: 20px; /* Mobil cihazlarda metin ile resim arasındaki boşluk ayarı */
+  }
+
+  .whyus-text p[data-translation-key="whyus-p"] {
+    font-size: 16px; /* Mobil cihazlar için metin boyutu */
+    padding: 10px;
+  }
+
+  /* Mobil uyumlu sütunlar */
+  .other-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* İki sütunlu düzen için genişliği 50% yap */
+  .insurance,
+  .certified,
+  .repair,
+  .installing {
+    flex: 1;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Mobil uyumlu metin boyutları */
+  .insurance-text h1,
+  .certified-text h1,
+  .repair-text h1,
+  .installing-text h1 {
+    font-size: 16px;
+  }
+
+  .insurance-text p,
+  .certified-text p,
+  .repair-text p,
+  .installing-text p {
+    font-size: 14px;
+  }
+}

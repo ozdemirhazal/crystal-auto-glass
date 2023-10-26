@@ -1,0 +1,17 @@
+.login-icon {
+  position: absolute;
+  top: 26px;
+  right: 20px;
+  z-index: 10;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .login-icon {
+    position: absolute;
+    top: 21px;
+    right: 40px;
+    z-index: 10;
+    display: flex;
+  }
+}
