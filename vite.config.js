@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/deneme/";
+    config.base = "/crystal-auto-glass/";
   }
 
   return config;

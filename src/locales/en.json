@@ -180,34 +180,34 @@
   ],
   "homepageproducts": [
     {
+      "id": 1,
       "name": "Ürün 1",
       "price": 19.99,
-      "description": "Çift katmanlı koyu tonlu akrilik cam.",
-      "image": "/images/card-caravan.png"
+      "description": "Çift katmanlı koyu tonlu akrilik cam."
     },
     {
+      "id": 2,
       "name": "Ürün 2",
       "price": 24.99,
-      "description": "Güçlendirilmiş çerçeve ile siyah güneş gözlüğü.",
-      "image": "/images/card-carglassfilm.png"
+      "description": "Güçlendirilmiş çerçeve ile siyah güneş gözlüğü."
     },
     {
+      "id": 3,
       "name": "Ürün 3",
       "price": 29.99,
-      "description": "Yüksek kapasiteli, hızlı şarj özellikli pil.",
-      "image": "/images/card-yacht.png"
+      "description": "Yüksek kapasiteli, hızlı şarj özellikli pil."
     },
     {
+      "id": 4,
       "name": "Ürün 4",
       "price": 14.99,
-      "description": "Ses yalıtımlı, kablosuz kulaklık.",
-      "image": "/images/card-bigauto.png"
+      "description": "Ses yalıtımlı, kablosuz kulaklık."
     },
     {
+      "id": 5,
       "name": "Ürün 5",
       "price": 49.99,
-      "description": "Su geçirmez, spor kamerası.",
-      "image": "/images/card-car.png"
+      "description": "Su geçirmez, spor kamerası."
     }
   ],
   "price-label": "Price",

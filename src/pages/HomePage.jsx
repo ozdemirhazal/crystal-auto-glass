@@ -11,6 +11,7 @@ import Footer from "../components/Footer";
 import DesktopLanguageBar from "../components/DesktopLanguageBar";
 import DesktopMenu from "../components/DesktopMenu";
 import LogInSignupIcon from "../components/Login-SignUp-Icon";
+import ProductSlider from "../components/ProductSlider";
 
 function Home() {
   return (
@@ -57,6 +58,10 @@ function Home() {
 
       <div className="WhyUs">
         <WhyUs />
+      </div>
+
+      <div className="ProductSlider">
+        <ProductSlider />
       </div>
 
       <div className="Footer">
