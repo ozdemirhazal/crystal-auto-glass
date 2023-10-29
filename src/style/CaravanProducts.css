@@ -6,7 +6,7 @@
 }
 
 .product-list h1 {
-  color: #333;
+  color: #000;
 }
 
 .product-grid {
@@ -34,7 +34,7 @@
 
 .product h3 {
   font-size: 18px; /* Başlık boyutunu güncelleyin */
-  color: #555;
+  color: #000;
 }
 
 .product p {
@@ -91,7 +91,7 @@
 
 .product-details h3 {
   font-size: 24px;
-  color: #555;
+  color: #000;
 }
 
 .product-details p {

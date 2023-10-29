@@ -7,7 +7,7 @@
   justify-content: center; /* Yatayda ortala */
   align-items: center; /* Dikeyde ortala */
   font-size: 16px;
-  color: #333;
+  color: #000;
   z-index: 1;
 }
 
@@ -30,7 +30,7 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-  color: #333;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {

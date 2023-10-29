@@ -58,7 +58,7 @@
   label a {
     margin-bottom: 1em;
     display: block;
-    color: #333;
+    color: #000;
     text-decoration: none;
   }
 
@@ -78,7 +78,7 @@
 
   .language-data a {
     text-decoration: none;
-    color: #333;
+    color: #000;
     margin: 0 10px;
   }
 }
