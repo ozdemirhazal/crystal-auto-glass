@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// eslint-disable-next-line no-unused-vars
+import i18n from "../i18n/i18n";
 import Home from "./pages/HomePage";
 import Products from "./pages/ProductsPage";
 import About from "./pages/AboutPage";
@@ -13,13 +15,15 @@ import CarGlassFilmProductsPage from "./pages/CarGlassFilmPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter
+        basename={import.meta.env.DEV ? "/" : "/crystal-auto-glass/"}
+      >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/crystal-auto/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Contact />} />
           <Route path="/login-signup" element={<LogInSignUp />} />
           <Route
             path="/products/caravan-glass"
