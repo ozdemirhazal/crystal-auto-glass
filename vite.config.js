@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/crystal-auto-glass/";
+    config.base = "/crystalautoglass.de/";
   }
 
   return config;
