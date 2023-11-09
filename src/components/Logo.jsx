@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import LogoImage from "../library/logo.png";
 import "../style/Logo.css";
 
 function Logo() {
-  const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   useEffect(() => {
@@ -22,7 +21,7 @@ function Logo() {
   return (
     <div className={`logo ${isMobile ? "mobile" : "desktop"}`}>
       <Link to="/" className="logo-link">
-        {isMobile ? t("mobileContent") : t("desktopContent")}
+        <img src={LogoImage} height="60px" width="110px" alt=""></img>
       </Link>
     </div>
   );
